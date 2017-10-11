@@ -1,0 +1,6 @@
+E:\Projects\ElasticsearchTests\ElasticsearchTests.Data\bin\Debug\netstandard2.0\ElasticsearchTests.Data.deps.json
+E:\Projects\ElasticsearchTests\ElasticsearchTests.Data\bin\Debug\netstandard2.0\ElasticsearchTests.Data.dll
+E:\Projects\ElasticsearchTests\ElasticsearchTests.Data\bin\Debug\netstandard2.0\ElasticsearchTests.Data.pdb
+E:\Projects\ElasticsearchTests\ElasticsearchTests.Data\obj\Debug\netstandard2.0\ElasticsearchTests.Data.fsproj.CoreCompileInputs.cache
+E:\Projects\ElasticsearchTests\ElasticsearchTests.Data\obj\Debug\netstandard2.0\ElasticsearchTests.Data.dll
+E:\Projects\ElasticsearchTests\ElasticsearchTests.Data\obj\Debug\netstandard2.0\ElasticsearchTests.Data.pdb

@@ -1,0 +1,10 @@
+E:\Projects\ElasticsearchTests\ElasticsearchTests.Console\bin\Debug\netcoreapp2.0\ElasticsearchTests.Console.deps.json
+E:\Projects\ElasticsearchTests\ElasticsearchTests.Console\bin\Debug\netcoreapp2.0\ElasticsearchTests.Console.runtimeconfig.json
+E:\Projects\ElasticsearchTests\ElasticsearchTests.Console\bin\Debug\netcoreapp2.0\ElasticsearchTests.Console.runtimeconfig.dev.json
+E:\Projects\ElasticsearchTests\ElasticsearchTests.Console\bin\Debug\netcoreapp2.0\ElasticsearchTests.Console.dll
+E:\Projects\ElasticsearchTests\ElasticsearchTests.Console\bin\Debug\netcoreapp2.0\ElasticsearchTests.Console.pdb
+E:\Projects\ElasticsearchTests\ElasticsearchTests.Console\bin\Debug\netcoreapp2.0\ElasticsearchTests.Data.dll
+E:\Projects\ElasticsearchTests\ElasticsearchTests.Console\bin\Debug\netcoreapp2.0\ElasticsearchTests.Data.pdb
+E:\Projects\ElasticsearchTests\ElasticsearchTests.Console\obj\Debug\netcoreapp2.0\ElasticsearchTests.Console.fsproj.CoreCompileInputs.cache
+E:\Projects\ElasticsearchTests\ElasticsearchTests.Console\obj\Debug\netcoreapp2.0\ElasticsearchTests.Console.dll
+E:\Projects\ElasticsearchTests\ElasticsearchTests.Console\obj\Debug\netcoreapp2.0\ElasticsearchTests.Console.pdb
