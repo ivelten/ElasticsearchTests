@@ -26,9 +26,8 @@ let runSequentialIndexTest path =
     |> Seq.map ((Storage.uploadDocumentAsync client) >> Async.RunSynchronously)
     |> Seq.iter printResponse
 
-let runParallelIndexTest path =
+let runParallelIndexTest (agent : WorkQueueAgent) path =
     printfn "Indexing documents at \"%s\"..." path
-    let agent = WorkQueueAgent.start 5
     let client = Storage.getClient()
     Directory.GetFiles(path, "*.docx", SearchOption.AllDirectories)
     |> Seq.map (fun f -> async { 
