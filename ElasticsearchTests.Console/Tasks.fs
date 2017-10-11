@@ -1,15 +1,20 @@
 module ElasticsearchTests.Console.Tasks
 
+open System
 open System.IO
 open ElasticsearchTests.Data
 open Nest
 
+let private lockObject = obj()
+
 let private printResponse (response : IIndexResponse) =
     let audit = Seq.head response.ApiCall.AuditTrail
-    let elapsed = audit.Ended - audit.Started
-    if response.Created 
-    then printfn "Document %s was indexed in %d ms." response.Id (int elapsed.TotalMilliseconds)
-    else printfn "Error indexing document %s. %O" response.Id response.ApiCall
+    let elapsed = int (audit.Ended - audit.Started).TotalMilliseconds
+    let timestamp = DateTime.Now.ToString("HH:mm:ss")
+    lock lockObject (fun () ->
+        if response.Created 
+        then printfn "%s > Document %s was indexed in %d ms." timestamp response.Id elapsed
+        else printfn "%s > Error indexing document %s. Request finished in %d ms." timestamp response.Id elapsed)
 
 let runSingleDocumentIndexText path =
     printfn "Indexing document \"%s\"..." path
